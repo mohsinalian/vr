@@ -395,3 +395,36 @@ html::-webkit-scrollbar-track {
     top: 350px;
   }
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .header {
+    height: auto;
+  }
+  .header h1 {
+    font-size: 25px;
+    padding: 25px;
+  }
+  .header h2 {
+    font-size: 15px;
+    padding: 25px;
+  }
+  .fiver-btn {
+    background-color: var(--color-secondary);
+    margin: 30px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .fiver-btn:hover {
+    background-color: var(--color-secondary);
+    color: #494848;
+  }
+
+  .scroll-btn {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .scroll-btn:hover {
+    border-bottom: none;
+  }
+}

@@ -107,6 +107,7 @@ html::-webkit-scrollbar-track {
     ),
     url(img/resume-writing.jpg);
   background-size: cover;
+  padding : 55px;
 }
 .header h1 {
   font-size: 45px;
@@ -280,6 +281,8 @@ html::-webkit-scrollbar-track {
 
   .header {
     height: auto;
+        padding: auto;
+
   }
   .header h1 {
     font-size: 25px;

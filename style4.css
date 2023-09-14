@@ -397,23 +397,21 @@ html::-webkit-scrollbar-track {
 }
 
 
-@media only screen and (max-width: 1000px) {
-  .header {
-    height: auto;
-  }
+
+@media only screen and (max-height: 800px) {
   .header h1 {
-    font-size: 25px;
-    padding: 25px;
+    font-size: 32px;
+    padding: 30px;
   }
   .header h2 {
-    font-size: 15px;
-    padding: 25px;
+    font-size: 22px;
+    padding: 32px;
   }
   .fiver-btn {
     background-color: var(--color-secondary);
-    margin: 30px;
-    height: 30px;
-    font-size: 10px;
+    margin: 35px;
+    height: 32px;
+    font-size: 11px;
   }
   .fiver-btn:hover {
     background-color: var(--color-secondary);
@@ -421,7 +419,7 @@ html::-webkit-scrollbar-track {
   }
 
   .scroll-btn {
-    font-size: 10px;
+    font-size: 15px;
     padding: 10px;
   }
   .scroll-btn:hover {
